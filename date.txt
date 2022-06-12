@@ -1,0 +1,43 @@
+<html>
+<head>
+<script type="text/javascript">
+
+var today= new Date();
+document.write("<br/> Today is : ",today);
+
+var localtime=today.toLocaleString();
+document.write("<br/> LocaleString : ",localtime);
+
+var day_month=today.getDate();
+document.write("<br/> Day in a month is : ",day_month);
+
+var month=today.getMonth();
+document.write("<br/> Month is:(0 to 11) ",month);
+document.write("<br/> Month is:",month+1);
+
+
+var day_week=today.getDay();
+document.write("<br/> Day in a week is(0 to 6) : ",day_week);
+document.write("<br/> Day in a week is: ",day_week+1);
+
+var time=today.getTime();
+document.write("<br/> Time is(msec from 1 jan 1970 : ",time);
+
+var hours=today.getHours();
+document.write("<br/>Hours of the time is : ",hours);
+
+var minutes=today.getMinutes();
+document.write("<br/> Minutes of the time is : ",minutes);
+
+var seconds= today.getSeconds();
+document.write("<br/> Seconds of the time is : ",seconds);
+
+
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
